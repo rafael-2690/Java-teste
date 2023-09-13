@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Devolucao",
+            "request": "launch",
+            "mainClass": "Devolucao",
+            "projectName": "java-teste_ca2f0a25"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
