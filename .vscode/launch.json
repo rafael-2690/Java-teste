@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Salario1",
+            "request": "launch",
+            "mainClass": "Salario1",
+            "projectName": "java-teste_ca2f0a25"
+        },
+        {
+            "type": "java",
             "name": "Salario",
             "request": "launch",
             "mainClass": "Salario",
