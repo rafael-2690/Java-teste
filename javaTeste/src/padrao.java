@@ -1,4 +1,8 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class padrao {
@@ -17,9 +21,7 @@ public class padrao {
     }
 
     //TODO: Ordenar os ativos em ordem alfabética.
-    for (int i2 = 0; i2 < ativos.length; i2++) {
-      ativos[i2].sort(String.CASE_INSENSITIVE_ORDER);
-    }
+    Collections.sort(ativos[]);
 
     //TODO: Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
     for (int indice = 0; indice < ativos.length; indice++) {
