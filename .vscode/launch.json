@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Principal",
+            "projectName": "java-teste_dc385834"
+        },
+        {
+            "type": "java",
             "name": "Banco",
             "request": "launch",
             "mainClass": "Banco",
